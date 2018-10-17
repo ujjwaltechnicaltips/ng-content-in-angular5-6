@@ -1,0 +1,13 @@
+app.component.html
+-----------------------------------
+<app-services>
+ <p class="era">this is the headingfffff
+    </p>
+</app-services>
+
+
+app.services.html
+-----------------------------------
+<ng-content select=".era">
+
+</ng-content>
